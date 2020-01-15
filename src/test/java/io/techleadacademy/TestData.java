@@ -1,3 +1,5 @@
+package io.techleadacademy;
+
 import com.github.javafaker.Faker;
 
 public class TestData {

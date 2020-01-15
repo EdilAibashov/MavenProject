@@ -1,9 +1,8 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+package io.techleadacademy.zz_old.TestNG;
 
-import java.sql.Driver;
-
+import io.techleadacademy.TestData;
+import org.testng.annotations.Test;
+@Test
 public class MavenPractice {
     public static void main(String[] args) {
 //        WebDriverManager.chromedriver().setup();

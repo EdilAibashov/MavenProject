@@ -2,5 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/io" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/io/MavenProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/io/techleadacademy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/io/techleadacademy/testing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/io/techleadacademy/zz_old" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/io/techleadacademy/zz_old/testing" vcs="Git" />
   </component>
 </project>
