@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90e3fd64-17f2-41bf-88b5-99d29bc44208" name="Default Changelist" comment="Pushed1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/MavenProject" beforeDir="false" />
+    <list default="true" id="90e3fd64-17f2-41bf-88b5-99d29bc44208" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/pages/MyAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/util/Driver.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zz_old/testing" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zz_old/testing" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/test/java/io/techleadacademy" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -51,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/io" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -251,10 +243,10 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="457" y="190" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.830@0.23.1440.830" timestamp="1578450984941" />
-    <state x="348" y="35" key="CommitChangelistDialog2" timestamp="1579363081090">
+    <state x="348" y="35" key="CommitChangelistDialog2" timestamp="1579363247476">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state x="348" y="35" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1579363081090" />
+    <state x="348" y="35" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1579363247476" />
     <state width="1396" height="264" key="GridCell.Tab.0.bottom" timestamp="1579363224789">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
@@ -348,11 +340,12 @@
     </state>
     <state x="257" y="67" key="Maven.ArtifactSearchDialog/0.23.1440.828@0.23.1440.828" timestamp="1579229385413" />
     <state x="257" y="67" key="Maven.ArtifactSearchDialog/0.23.1440.830@0.23.1440.830" timestamp="1578772680305" />
-    <state x="220" y="74" key="SettingsEditor" timestamp="1579362692114">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="220" y="74" key="SettingsEditor" timestamp="1579363300165">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="220" y="74" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1579063824988" />
     <state x="220" y="74" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1579362692114" />
+    <state x="220" y="74" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1579363300165" />
     <state x="324" y="174" key="Vcs.Push.Dialog.v2" timestamp="1579362846066">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
