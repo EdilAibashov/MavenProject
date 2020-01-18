@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e3fd64-17f2-41bf-88b5-99d29bc44208" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zz_old/testing" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zz_old/testing" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +194,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aaa" />
     <MESSAGE value="Pushed1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushed1" />
+    <MESSAGE value="Pushed12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushed12" />
   </component>
   <component name="WindowStateProjectService">
     <state x="324" y="100" key="#Notifications" timestamp="1579362587166">
@@ -243,10 +243,10 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="457" y="190" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.830@0.23.1440.830" timestamp="1578450984941" />
-    <state x="348" y="35" key="CommitChangelistDialog2" timestamp="1579363247476">
+    <state x="348" y="35" key="CommitChangelistDialog2" timestamp="1579363343164">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state x="348" y="35" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1579363247476" />
+    <state x="348" y="35" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1579363343164" />
     <state width="1396" height="264" key="GridCell.Tab.0.bottom" timestamp="1579363224789">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
