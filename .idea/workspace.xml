@@ -27,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/test/java/io/techleadacademy" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -250,10 +250,10 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="457" y="190" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.830@0.23.1440.830" timestamp="1578450984941" />
-    <state x="348" y="35" key="CommitChangelistDialog2" timestamp="1579362842330">
+    <state x="348" y="35" key="CommitChangelistDialog2" timestamp="1579363036533">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state x="348" y="35" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1579362842330" />
+    <state x="348" y="35" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1579363036533" />
     <state width="703" height="278" key="GridCell.Tab.0.bottom" timestamp="1579362702953">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
