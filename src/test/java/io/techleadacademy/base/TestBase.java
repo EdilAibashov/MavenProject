@@ -6,23 +6,29 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.testng.annotations.AfterGroups;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
     public static WebDriver driver = null;
     public static final String propertyPath = "src/test/java/io/techleadacademy/resources/configuration.properties";
+
+    public TestBase(){
+        getDriver();
+    }
+
     @BeforeMethod
     public void setUp(){
         initialize(ConfigReader.readProperty(propertyPath,"browser"));
     }
-//    @AfterMethod
-//    public void tearDown(){
-//        closeDriver();
-//    }
+
+    @AfterTest
+    public void tearDown(){
+        closeDriver();
+    }
+
+
     public static void initialize(String browser){
         if (driver != null )
             return;
@@ -42,20 +48,32 @@ public class TestBase {
             default:
                 System.out.println("Invalid browser type");
         }
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.get(ConfigReader.readProperty(propertyPath, "url"));
     }
+
     public static void closeDriver(){
         if (driver != null){
             driver.close();
             driver = null;
         }
     }
+
     public static void quitDriver(){
         if (driver!=null)
             driver.quit();
         driver = null;
     }
+
+    public WebDriver getDriver(){
+        if (driver != null)
+            return driver;
+        initialize(ConfigReader.readProperty(propertyPath,"browser"));
+        return driver;
+    }
+
+
+
 }

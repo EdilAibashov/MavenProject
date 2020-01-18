@@ -5,10 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage extends TestBase {
-
-
-    public HomePage() {
+public class HomePage extends BasePage {
+    public HomePage(){
         super();
         PageFactory.initElements(driver, this);
     }
@@ -25,20 +23,19 @@ public class HomePage extends TestBase {
     @FindBy(xpath = "//a[text()='Login']")
     public WebElement logIn_Btn;
 
-
-    public void rand() {
+    public void rand(){
         logo.sendKeys();
     }
 
-    public String getTitle() {
+    public String getTitle(){
         return driver.getTitle();
     }
 
-    public void clickMyAccountBtn() {
+    public void clickMyAccountBtn(){
         myAccount_Btn.click();
     }
 
-    public void clickSignUp() {
+    public void clickSignUp(){
         clickMyAccountBtn();
         signUp_Btn.click();
     }

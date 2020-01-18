@@ -2,19 +2,20 @@ package io.techleadacademy.tests;
 
 import io.techleadacademy.pages.MyAccountPage;
 import io.techleadacademy.pages.RegisterPage;
-import io.techleadacademy.util.Waits;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class RegisterPageTest extends RegisterPage {
-    @Test
-    public void verifyRegisterPageTitle(){
-        RegisterPage regPage = new RegisterPage();
-        navigateToRegisterPage();
-        Waits.sleep(1000);
+    @Test(groups = {"smoke"})
+    public void verifyRegisterPageTitle() throws InterruptedException {
+        String expected = driver.getTitle();
+        //navigateToRegisterPage();
+        Thread.sleep(3000);
         registerNewUser();
 
 
-
+        String actual =driver.getTitle();
+        Assert.assertNotEquals(expected, actual, "Expected: " + expected + " | Actual: " + actual);
 
     }
 }

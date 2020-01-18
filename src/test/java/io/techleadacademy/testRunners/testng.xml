@@ -7,6 +7,7 @@
                     <exclude name = "logInPerformanceTest1"/>
                 </methods>
             </class>
+
             <class name="io.techleadacademy.tests.RegisterPageTest">
             </class>
             <class name="io.techleadacademy.tests.MyAccountPageTest">
