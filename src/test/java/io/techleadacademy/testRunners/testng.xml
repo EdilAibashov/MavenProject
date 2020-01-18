@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite">
+    <test name="Test 1">
+        <classes>
+            <class name = "io.techleadacademy.tests.HomePageTest">
+                <methods>
+                    <exclude name = "logInPerformanceTest1"/>
+                </methods>
+            </class>
+            <class name="io.techleadacademy.tests.RegisterPageTest">
+            </class>
+            <class name="io.techleadacademy.tests.MyAccountPageTest">
+            </class>
+        </classes>
+    </test>
+    <test name ="Smoke Test">
+        <packages>
+<!--            <package name="io.techleadacademy.zz_old.Jan12">-->
+<!--            </package>-->
+<!--            <package name="io.techleadacademy.zz_old.testing">-->
+<!--            </package>-->
+        </packages>
+    </test>
+</suite>
